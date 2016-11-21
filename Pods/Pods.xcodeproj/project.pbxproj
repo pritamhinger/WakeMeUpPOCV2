@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F72B13D64EB67F17BE4F6F1DA3A4898 /* DateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28BE89FB56E909707F8D96521E12CDB /* DateTimePicker.swift */; };
+		2F6BE68F162D3030ACD4DC208B36B15F /* Pods-WakeMeUpPOC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A4B71D0BBB69B8B653A30EF341D385 /* Pods-WakeMeUpPOC-dummy.m */; };
+		32D75348C8F5495E2D5386A4AF7A7218 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		4284ECF1074CA36109D2C7EDE4BE2F4D /* Pods-WakeMeUpPOCUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FE27E8E2420D923F2D18EA114C0167 /* Pods-WakeMeUpPOCUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459D06BA84160E3EA50CCAACB8343D55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		47AD20C326B152D8E712B2688DD5F76A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		49567CC406D055EF598334AF5C838890 /* Pods-WakeMeUpPOCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E6CF612114DF4C9010AC2B8B15B125 /* Pods-WakeMeUpPOCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E58438F8BB95D98711E246F4516F17A /* StepCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A7CB7311C5E3288F889417C11AB47 /* StepCollectionViewFlowLayout.swift */; };
+		6C4645483732740A1427F476B6159AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		8A10A24CE2C4FEE781F7DB7C76AC108E /* Pods-WakeMeUpPOCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF513065CCC3F4E86163D1A795C1028 /* Pods-WakeMeUpPOCTests-dummy.m */; };
+		8CADCF3303FB981E9F1D4670B540AEB8 /* DateTimePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A77D27D0D4D0A642481288062C8A33 /* DateTimePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94BDD181C7045F69EA1B67AE7F184630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		C33B83A0DF5502DFFA0E1BEEA8074686 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19390867318E95E12FFE7B6A3C1572F7 /* DateCollectionViewCell.swift */; };
+		DC5265617A5609213FCFF90275216F9C /* DateTimePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C998C2896018B749E6BF93D86000F4 /* DateTimePicker-dummy.m */; };
+		E669B89787FA583D526737692262B4AF /* Pods-WakeMeUpPOCUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C03FD702DA5F06313CF55D21F405B27 /* Pods-WakeMeUpPOCUITests-dummy.m */; };
+		EDB0AEA2B7DA66984E284C866957E36E /* Pods-WakeMeUpPOC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04158E45C8E484AE0A34D4685501E8A3 /* Pods-WakeMeUpPOC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6D8EE0B96EA11F8CC843DA7CB2AB0F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA73695D1E57996C128686ADB24DCC2;
+			remoteInfo = DateTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CB78EDB68CB8541ACC83A49BC04639 /* Pods_WakeMeUpPOCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WakeMeUpPOCTests.framework; path = "Pods-WakeMeUpPOCTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04158E45C8E484AE0A34D4685501E8A3 /* Pods-WakeMeUpPOC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WakeMeUpPOC-umbrella.h"; sourceTree = "<group>"; };
+		09BE0E7A9BD05B64149ADF73335BE6A7 /* Pods-WakeMeUpPOCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WakeMeUpPOCTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AEB85C7ABBF954D635CEFBB84680683 /* Pods-WakeMeUpPOCUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpPOCUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0C5E8175602F231320A8F075E837F48E /* Pods-WakeMeUpPOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpPOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		13EE047FE8172EFC5E301D0C7D1A82F8 /* Pods_WakeMeUpPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WakeMeUpPOC.framework; path = "Pods-WakeMeUpPOC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141E1D2D73BB6643F62B127494C1C56F /* Pods-WakeMeUpPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpPOC.release.xcconfig"; sourceTree = "<group>"; };
+		19390867318E95E12FFE7B6A3C1572F7 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateCollectionViewCell.swift; path = Source/DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		1B54C02CFDC70BD1EE697B9C3B09F544 /* Pods-WakeMeUpPOC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WakeMeUpPOC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BAF2C60C058812B1672F1F57BF8736F /* Pods-WakeMeUpPOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpPOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		243ACDD04D0099025B0CF084D61734DD /* Pods-WakeMeUpPOC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WakeMeUpPOC-acknowledgements.plist"; sourceTree = "<group>"; };
+		25FCCA9951980979591CB8BB8527F544 /* Pods-WakeMeUpPOCUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WakeMeUpPOCUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		273ECA942B6FD51C58E97D08EED1C129 /* Pods-WakeMeUpPOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpPOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27F06EFABD9484D2905BD9B1610B55D8 /* Pods-WakeMeUpPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		2DD1B3815E20A92D333610A46D3A0498 /* Pods-WakeMeUpPOCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WakeMeUpPOCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4580B7670A5AB6B57AA227D9762B98A6 /* Pods-WakeMeUpPOCUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WakeMeUpPOCUITests.modulemap"; sourceTree = "<group>"; };
+		46D6501BE051822BF3A9813312F04A65 /* Pods-WakeMeUpPOC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpPOC-resources.sh"; sourceTree = "<group>"; };
+		59FE27E8E2420D923F2D18EA114C0167 /* Pods-WakeMeUpPOCUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WakeMeUpPOCUITests-umbrella.h"; sourceTree = "<group>"; };
+		5C69E8D8C8FA30D3B7BE1623854784E4 /* Pods-WakeMeUpPOCUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WakeMeUpPOCUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		628B81D4C9CC8B341EE2DC9FB21CA751 /* Pods-WakeMeUpPOC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpPOC-frameworks.sh"; sourceTree = "<group>"; };
+		65817777A93B5E006DBB320D78D2B296 /* DateTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateTimePicker.framework; path = DateTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C03FD702DA5F06313CF55D21F405B27 /* Pods-WakeMeUpPOCUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WakeMeUpPOCUITests-dummy.m"; sourceTree = "<group>"; };
+		72C998C2896018B749E6BF93D86000F4 /* DateTimePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateTimePicker-dummy.m"; sourceTree = "<group>"; };
+		72E4D99AD81344106A5DE6FDE4B0F1A2 /* Pods-WakeMeUpPOCUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpPOCUITests-resources.sh"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		86F0CAAD1486F9008CEEE0C60A809AF2 /* Pods-WakeMeUpPOCTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpPOCTests-frameworks.sh"; sourceTree = "<group>"; };
+		91E9C1E168101CB999B6F1296F907BB9 /* Pods-WakeMeUpPOC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WakeMeUpPOC.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D412BDF424B323B033E4189B3C7675 /* DateTimePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DateTimePicker.modulemap; sourceTree = "<group>"; };
+		96A4B71D0BBB69B8B653A30EF341D385 /* Pods-WakeMeUpPOC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WakeMeUpPOC-dummy.m"; sourceTree = "<group>"; };
+		A1CEC14B6587872FBE093A418FA915B9 /* Pods_WakeMeUpPOCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WakeMeUpPOCUITests.framework; path = "Pods-WakeMeUpPOCUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5A7CB7311C5E3288F889417C11AB47 /* StepCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepCollectionViewFlowLayout.swift; path = Source/StepCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		AFE87AA2A500E114D6D152735948DFE6 /* Pods-WakeMeUpPOCTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WakeMeUpPOCTests-resources.sh"; sourceTree = "<group>"; };
+		B8AB3A1D4539C799E74E87A81F8272CE /* DateTimePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateTimePicker.xcconfig; sourceTree = "<group>"; };
+		BBD7FAA3E6016AF454E7FB2F0297A907 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF513065CCC3F4E86163D1A795C1028 /* Pods-WakeMeUpPOCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WakeMeUpPOCTests-dummy.m"; sourceTree = "<group>"; };
+		D28BE89FB56E909707F8D96521E12CDB /* DateTimePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTimePicker.swift; path = Source/DateTimePicker.swift; sourceTree = "<group>"; };
+		D4623C35FCF4BE9AE02C1C6CD4312ACE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8CB7CFD8D2A77F91600649E4347075 /* DateTimePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTimePicker-prefix.pch"; sourceTree = "<group>"; };
+		E2CFF9A78706B4E45E5B357B2D933702 /* Pods-WakeMeUpPOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WakeMeUpPOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3692152AA4579630D3FB799E9C30500 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48440CEEAB389BF063BDF46FFDA02FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6A77D27D0D4D0A642481288062C8A33 /* DateTimePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTimePicker-umbrella.h"; sourceTree = "<group>"; };
+		F8BBA4BDA59D91361D781BBAB0F36897 /* Pods-WakeMeUpPOCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WakeMeUpPOCTests.modulemap"; sourceTree = "<group>"; };
+		F9E6CF612114DF4C9010AC2B8B15B125 /* Pods-WakeMeUpPOCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WakeMeUpPOCTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F2B0FC55D4706A128495B1540F849CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D75348C8F5495E2D5386A4AF7A7218 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B501CC6F97A35A77627D73D69A50D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459D06BA84160E3EA50CCAACB8343D55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFFCBE402EE97ED48C5ED20811A7110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BDD181C7045F69EA1B67AE7F184630 /* Foundation.framework in Frameworks */,
+				47AD20C326B152D8E712B2688DD5F76A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63C64552170F3CB8EC2C9E82987EDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4645483732740A1427F476B6159AE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05106262279FB240940BE34F78B82B3E /* DateTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				19390867318E95E12FFE7B6A3C1572F7 /* DateCollectionViewCell.swift */,
+				D28BE89FB56E909707F8D96521E12CDB /* DateTimePicker.swift */,
+				AC5A7CB7311C5E3288F889417C11AB47 /* StepCollectionViewFlowLayout.swift */,
+				1820509E77E6E71D29A4B356451BC8A7 /* Support Files */,
+			);
+			name = DateTimePicker;
+			path = DateTimePicker;
+			sourceTree = "<group>";
+		};
+		1820509E77E6E71D29A4B356451BC8A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D412BDF424B323B033E4189B3C7675 /* DateTimePicker.modulemap */,
+				B8AB3A1D4539C799E74E87A81F8272CE /* DateTimePicker.xcconfig */,
+				72C998C2896018B749E6BF93D86000F4 /* DateTimePicker-dummy.m */,
+				DB8CB7CFD8D2A77F91600649E4347075 /* DateTimePicker-prefix.pch */,
+				E6A77D27D0D4D0A642481288062C8A33 /* DateTimePicker-umbrella.h */,
+				E3692152AA4579630D3FB799E9C30500 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DateTimePicker";
+			sourceTree = "<group>";
+		};
+		39E823C9AAE5145BA8B92ABF9EA6CF94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E91927939575CC8DD66CA791F6CC5AD8 /* Pods-WakeMeUpPOC */,
+				F03BDA3987A3A51D0770F576D749B934 /* Pods-WakeMeUpPOCTests */,
+				530B16533EBA38A677318C52CF38A392 /* Pods-WakeMeUpPOCUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		530B16533EBA38A677318C52CF38A392 /* Pods-WakeMeUpPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBD7FAA3E6016AF454E7FB2F0297A907 /* Info.plist */,
+				4580B7670A5AB6B57AA227D9762B98A6 /* Pods-WakeMeUpPOCUITests.modulemap */,
+				25FCCA9951980979591CB8BB8527F544 /* Pods-WakeMeUpPOCUITests-acknowledgements.markdown */,
+				5C69E8D8C8FA30D3B7BE1623854784E4 /* Pods-WakeMeUpPOCUITests-acknowledgements.plist */,
+				6C03FD702DA5F06313CF55D21F405B27 /* Pods-WakeMeUpPOCUITests-dummy.m */,
+				0AEB85C7ABBF954D635CEFBB84680683 /* Pods-WakeMeUpPOCUITests-frameworks.sh */,
+				72E4D99AD81344106A5DE6FDE4B0F1A2 /* Pods-WakeMeUpPOCUITests-resources.sh */,
+				59FE27E8E2420D923F2D18EA114C0167 /* Pods-WakeMeUpPOCUITests-umbrella.h */,
+				0C5E8175602F231320A8F075E837F48E /* Pods-WakeMeUpPOCUITests.debug.xcconfig */,
+				E2CFF9A78706B4E45E5B357B2D933702 /* Pods-WakeMeUpPOCUITests.release.xcconfig */,
+			);
+			name = "Pods-WakeMeUpPOCUITests";
+			path = "Target Support Files/Pods-WakeMeUpPOCUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				918B9C8D5EEDAE69157CC9BD42764CB6 /* Pods */,
+				B285A2074E744A615A32288B7AF2C009 /* Products */,
+				39E823C9AAE5145BA8B92ABF9EA6CF94 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		918B9C8D5EEDAE69157CC9BD42764CB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05106262279FB240940BE34F78B82B3E /* DateTimePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B285A2074E744A615A32288B7AF2C009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65817777A93B5E006DBB320D78D2B296 /* DateTimePicker.framework */,
+				13EE047FE8172EFC5E301D0C7D1A82F8 /* Pods_WakeMeUpPOC.framework */,
+				01CB78EDB68CB8541ACC83A49BC04639 /* Pods_WakeMeUpPOCTests.framework */,
+				A1CEC14B6587872FBE093A418FA915B9 /* Pods_WakeMeUpPOCUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E91927939575CC8DD66CA791F6CC5AD8 /* Pods-WakeMeUpPOC */ = {
+			isa = PBXGroup;
+			children = (
+				D4623C35FCF4BE9AE02C1C6CD4312ACE /* Info.plist */,
+				91E9C1E168101CB999B6F1296F907BB9 /* Pods-WakeMeUpPOC.modulemap */,
+				1B54C02CFDC70BD1EE697B9C3B09F544 /* Pods-WakeMeUpPOC-acknowledgements.markdown */,
+				243ACDD04D0099025B0CF084D61734DD /* Pods-WakeMeUpPOC-acknowledgements.plist */,
+				96A4B71D0BBB69B8B653A30EF341D385 /* Pods-WakeMeUpPOC-dummy.m */,
+				628B81D4C9CC8B341EE2DC9FB21CA751 /* Pods-WakeMeUpPOC-frameworks.sh */,
+				46D6501BE051822BF3A9813312F04A65 /* Pods-WakeMeUpPOC-resources.sh */,
+				04158E45C8E484AE0A34D4685501E8A3 /* Pods-WakeMeUpPOC-umbrella.h */,
+				27F06EFABD9484D2905BD9B1610B55D8 /* Pods-WakeMeUpPOC.debug.xcconfig */,
+				141E1D2D73BB6643F62B127494C1C56F /* Pods-WakeMeUpPOC.release.xcconfig */,
+			);
+			name = "Pods-WakeMeUpPOC";
+			path = "Target Support Files/Pods-WakeMeUpPOC";
+			sourceTree = "<group>";
+		};
+		F03BDA3987A3A51D0770F576D749B934 /* Pods-WakeMeUpPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				E48440CEEAB389BF063BDF46FFDA02FF /* Info.plist */,
+				F8BBA4BDA59D91361D781BBAB0F36897 /* Pods-WakeMeUpPOCTests.modulemap */,
+				2DD1B3815E20A92D333610A46D3A0498 /* Pods-WakeMeUpPOCTests-acknowledgements.markdown */,
+				09BE0E7A9BD05B64149ADF73335BE6A7 /* Pods-WakeMeUpPOCTests-acknowledgements.plist */,
+				CDF513065CCC3F4E86163D1A795C1028 /* Pods-WakeMeUpPOCTests-dummy.m */,
+				86F0CAAD1486F9008CEEE0C60A809AF2 /* Pods-WakeMeUpPOCTests-frameworks.sh */,
+				AFE87AA2A500E114D6D152735948DFE6 /* Pods-WakeMeUpPOCTests-resources.sh */,
+				F9E6CF612114DF4C9010AC2B8B15B125 /* Pods-WakeMeUpPOCTests-umbrella.h */,
+				273ECA942B6FD51C58E97D08EED1C129 /* Pods-WakeMeUpPOCTests.debug.xcconfig */,
+				1BAF2C60C058812B1672F1F57BF8736F /* Pods-WakeMeUpPOCTests.release.xcconfig */,
+			);
+			name = "Pods-WakeMeUpPOCTests";
+			path = "Target Support Files/Pods-WakeMeUpPOCTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03F0662A4F6F155F5B77AB5F5F7154C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49567CC406D055EF598334AF5C838890 /* Pods-WakeMeUpPOCTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B3BB1E427492ABFE32C2A6EE84E84F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CADCF3303FB981E9F1D4670B540AEB8 /* DateTimePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69AD9120AECCBBE053A07CBBB950E38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB0AEA2B7DA66984E284C866957E36E /* Pods-WakeMeUpPOC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE548A317015199AAD2A2C81838C3156 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4284ECF1074CA36109D2C7EDE4BE2F4D /* Pods-WakeMeUpPOCUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9AF2E62121547762BBB339F3BB9F0C4C /* Pods-WakeMeUpPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7D08E6FAEB80DAB32BBE50FEF38FD8 /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpPOCTests" */;
+			buildPhases = (
+				A91805F9D6C3EAC9BCA0F674664D79A6 /* Sources */,
+				8B501CC6F97A35A77627D73D69A50D35 /* Frameworks */,
+				03F0662A4F6F155F5B77AB5F5F7154C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WakeMeUpPOCTests";
+			productName = "Pods-WakeMeUpPOCTests";
+			productReference = 01CB78EDB68CB8541ACC83A49BC04639 /* Pods_WakeMeUpPOCTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FA73695D1E57996C128686ADB24DCC2 /* DateTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36387C6EE242CBCDB1EFAD27029AB6B7 /* Build configuration list for PBXNativeTarget "DateTimePicker" */;
+			buildPhases = (
+				3F0B02B6F799F05D0235A03313A2EF65 /* Sources */,
+				CEFFCBE402EE97ED48C5ED20811A7110 /* Frameworks */,
+				94B3BB1E427492ABFE32C2A6EE84E84F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateTimePicker;
+			productName = DateTimePicker;
+			productReference = 65817777A93B5E006DBB320D78D2B296 /* DateTimePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C028F642452EF0873CCC97ACE7F3CF5C /* Pods-WakeMeUpPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E3B8961B56170A5A5CD91C69895E9D /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpPOCUITests" */;
+			buildPhases = (
+				DA8E23BE39500316B5C68902CE6CBC6D /* Sources */,
+				E63C64552170F3CB8EC2C9E82987EDDB /* Frameworks */,
+				FE548A317015199AAD2A2C81838C3156 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WakeMeUpPOCUITests";
+			productName = "Pods-WakeMeUpPOCUITests";
+			productReference = A1CEC14B6587872FBE093A418FA915B9 /* Pods_WakeMeUpPOCUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF37D1721D0934A9BFB391ED44D2B9B7 /* Pods-WakeMeUpPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291022C91973E68370BDBB720C94B84E /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpPOC" */;
+			buildPhases = (
+				584A7B9D8F13C7AE541ED4B5D48CB348 /* Sources */,
+				5F2B0FC55D4706A128495B1540F849CE /* Frameworks */,
+				B69AD9120AECCBBE053A07CBBB950E38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C62E68F0E39DE9FFB69354122E08007 /* PBXTargetDependency */,
+			);
+			name = "Pods-WakeMeUpPOC";
+			productName = "Pods-WakeMeUpPOC";
+			productReference = 13EE047FE8172EFC5E301D0C7D1A82F8 /* Pods_WakeMeUpPOC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B285A2074E744A615A32288B7AF2C009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FA73695D1E57996C128686ADB24DCC2 /* DateTimePicker */,
+				EF37D1721D0934A9BFB391ED44D2B9B7 /* Pods-WakeMeUpPOC */,
+				9AF2E62121547762BBB339F3BB9F0C4C /* Pods-WakeMeUpPOCTests */,
+				C028F642452EF0873CCC97ACE7F3CF5C /* Pods-WakeMeUpPOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0B02B6F799F05D0235A03313A2EF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33B83A0DF5502DFFA0E1BEEA8074686 /* DateCollectionViewCell.swift in Sources */,
+				DC5265617A5609213FCFF90275216F9C /* DateTimePicker-dummy.m in Sources */,
+				1F72B13D64EB67F17BE4F6F1DA3A4898 /* DateTimePicker.swift in Sources */,
+				4E58438F8BB95D98711E246F4516F17A /* StepCollectionViewFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A7B9D8F13C7AE541ED4B5D48CB348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6BE68F162D3030ACD4DC208B36B15F /* Pods-WakeMeUpPOC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91805F9D6C3EAC9BCA0F674664D79A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A10A24CE2C4FEE781F7DB7C76AC108E /* Pods-WakeMeUpPOCTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8E23BE39500316B5C68902CE6CBC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E669B89787FA583D526737692262B4AF /* Pods-WakeMeUpPOCUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C62E68F0E39DE9FFB69354122E08007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DateTimePicker;
+			target = 9FA73695D1E57996C128686ADB24DCC2 /* DateTimePicker */;
+			targetProxy = B6D8EE0B96EA11F8CC843DA7CB2AB0F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		321E25CD00D7F56DFF85EC5F536DDBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5E8175602F231320A8F075E837F48E /* Pods-WakeMeUpPOCUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpPOCUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpPOCUITests/Pods-WakeMeUpPOCUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpPOCUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69CCDF86AC412BE2E1FFB6193886C622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2CFF9A78706B4E45E5B357B2D933702 /* Pods-WakeMeUpPOCUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpPOCUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpPOCUITests/Pods-WakeMeUpPOCUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpPOCUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		831530ED8DE48BC977E66809B8A6E7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141E1D2D73BB6643F62B127494C1C56F /* Pods-WakeMeUpPOC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpPOC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpPOC/Pods-WakeMeUpPOC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpPOC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F241780CFFA1E123B4F8748B2994835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273ECA942B6FD51C58E97D08EED1C129 /* Pods-WakeMeUpPOCTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpPOCTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpPOCTests/Pods-WakeMeUpPOCTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpPOCTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA3FD0C37246207899CC38E9764F4686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F06EFABD9484D2905BD9B1610B55D8 /* Pods-WakeMeUpPOC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpPOC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpPOC/Pods-WakeMeUpPOC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpPOC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9F862759DAA1B6304E14FDAA08BF335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAF2C60C058812B1672F1F57BF8736F /* Pods-WakeMeUpPOCTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WakeMeUpPOCTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WakeMeUpPOCTests/Pods-WakeMeUpPOCTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WakeMeUpPOCTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8B813DC8BD4C54D949F96D17D2C86F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AB3A1D4539C799E74E87A81F8272CE /* DateTimePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DateTimePicker/DateTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateTimePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateTimePicker/DateTimePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DateTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E54F7371EF636128D02071CD958D1F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AB3A1D4539C799E74E87A81F8272CE /* DateTimePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DateTimePicker/DateTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateTimePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateTimePicker/DateTimePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DateTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C7D08E6FAEB80DAB32BBE50FEF38FD8 /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F241780CFFA1E123B4F8748B2994835 /* Debug */,
+				C9F862759DAA1B6304E14FDAA08BF335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291022C91973E68370BDBB720C94B84E /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3FD0C37246207899CC38E9764F4686 /* Debug */,
+				831530ED8DE48BC977E66809B8A6E7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36387C6EE242CBCDB1EFAD27029AB6B7 /* Build configuration list for PBXNativeTarget "DateTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54F7371EF636128D02071CD958D1F8C /* Debug */,
+				D8B813DC8BD4C54D949F96D17D2C86F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E3B8961B56170A5A5CD91C69895E9D /* Build configuration list for PBXNativeTarget "Pods-WakeMeUpPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321E25CD00D7F56DFF85EC5F536DDBA1 /* Debug */,
+				69CCDF86AC412BE2E1FFB6193886C622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

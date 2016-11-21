@@ -1,0 +1,6 @@
+framework module Pods_WakeMeUpPOCTests {
+  umbrella header "Pods-WakeMeUpPOCTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

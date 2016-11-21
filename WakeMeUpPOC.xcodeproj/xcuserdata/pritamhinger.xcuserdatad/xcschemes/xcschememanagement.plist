@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Notifications.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>WakeMeUpPOC.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>48DFFAB71DE2053A00F25DC1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48F95BFC1DE220BB00B059CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
